@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mechie to Techie | Data Analytics Portfolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f8f9fa;
+      margin: 0;
+    }
+
+    header {
+      background: #1f2937;
+      color: #fff;
+      padding: 4rem 1rem;
+      text-align: center;
+    }
+
+    .hero-image {
+      background-image: url('https://images.unsplash.com/photo-1581091012184-7f93ec8b8c94');
+      background-size: cover;
+      background-position: center;
+      height: 350px;
+    }
+
+    .section {
+      padding: 4rem 0;
+    }
+
+    .gear-icon {
+      animation: spin 6s linear infinite;
+    }
+
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    .card-img-top {
+      height: 200px;
+      object-fit: cover;
+    }
+
+    footer {
+      background: #343a40;
+      color: white;
+      padding: 2rem 0;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="hero-image d-flex justify-content-center align-items-center">
+    <h1 class="text-white display-4">Mechie to Techie</h1>
+  </div>
+
+  <header>
+    <p class="lead">Graduate Student in IT & Management | Aspiring Data Analyst | Ex-SharePoint Developer | Mechanically Analytical Mind</p>
+    <i class="fas fa-cogs fa-2x gear-icon"></i>
+  </header>
+
+  <div class="container section">
+    <h2 class="text-center mb-5">About Me</h2>
+    <p class="text-center">I’m a graduate student at Illinois Institute of Technology specializing in Data Analytics and Management. With a background in Mechanical Engineering and 1 year 8 months as a SharePoint Developer at Cognizant, I bring a unique mix of engineering precision and data insight. My goal is to build meaningful insights from data and contribute to strategic decision-making as a Data Analyst.</p>
+  </div>
+
+  <div class="container section">
+    <h2 class="text-center mb-5">Featured Projects</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="https://source.unsplash.com/400x200/?machine,maintenance" class="card-img-top" alt="Predictive Maintenance">
+          <div class="card-body">
+            <h5 class="card-title">Predictive Maintenance Analysis</h5>
+            <p class="card-text">Used Python and ML to forecast failures in industrial machines, reducing unplanned downtime by 15% in a simulated manufacturing dataset.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="https://source.unsplash.com/400x200/?supply,chain" class="card-img-top" alt="Supply Chain">
+          <div class="card-body">
+            <h5 class="card-title">Supply Chain Optimization</h5>
+            <p class="card-text">Analyzed procurement and logistics data to identify bottlenecks using SQL and Tableau, reducing delivery costs by 10%.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="https://source.unsplash.com/400x200/?sales,dashboard" class="card-img-top" alt="Sales Dashboard">
+          <div class="card-body">
+            <h5 class="card-title">Sales Analytics Dashboard</h5>
+            <p class="card-text">Developed an interactive Power BI dashboard showcasing key revenue trends and KPIs using real-world sales data.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container section">
+    <h2 class="text-center mb-5">Skills</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <ul>
+          <li>Python, R, SQL, PL/SQL</li>
+          <li>Pandas, NumPy, Scikit-learn</li>
+          <li>Power BI, Tableau, Excel</li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <ul>
+          <li>Apache Airflow, Spark, Hadoop</li>
+          <li>IBM App Connect, PowerApps, Power Automate</li>
+          <li>Git, Agile, Data Visualization</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="container section text-center">
+    <h2>Resume</h2>
+    <p><a href="resume.pdf" class="btn btn-outline-primary" download><i class="fas fa-download"></i> Download My Resume</a></p>
+  </div>
+
+  <div class="container section">
+    <h2 class="text-center mb-5">Contact Me</h2>
+    <form class="row g-3">
+      <div class="col-md-6">
+        <input type="text" class="form-control" placeholder="Your Name" required>
+      </div>
+      <div class="col-md-6">
+        <input type="email" class="form-control" placeholder="Your Email" required>
+      </div>
+      <div class="col-12 mt-3">
+        <textarea class="form-control" rows="4" placeholder="Message" required></textarea>
+      </div>
+      <div class="col-12 text-center mt-3">
+        <button type="submit" class="btn btn-success">Send Message</button>
+      </div>
+    </form>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Mechie to Techie | Powered by Data & Engineering Precision</p>
+  </footer>
+
+</body>
+
+</html>
